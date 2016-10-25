@@ -58,16 +58,36 @@ final class JediManager {
         return array("uptoken" => $uptoken, "response" => $response);
     }
 
+    /*
+     * Upload video data
+     * 
+     * @param $upToken
+     * @param $videoKey
+     * @param $videoData
+     * 
+     * @return (uploadResult, null) 
+     *      
+     */
     public function uploadVideoData($upToken, $videoKey, $videoData) {
         return $this->uploadManager->put($upToken, $videoKey, $videoData);
     }
 
+     /*
+     * Upload video data
+     * 
+     * @param $upToken
+     * @param $videoKey
+     * @param $videoFilePath
+     * 
+     * @return (uploadResult, null) 
+     *      
+     */
     public function uploadVideoFile($upToken, $videoKey, $videoFilePath) {
         return $this->uploadManager->putFile($upToken, $videoKey, $videoFilePath);
     }
 
     /*
-     * Get Video Info
+     * Get video info
      * 
      * @param $hub
      * @param $videoKey
