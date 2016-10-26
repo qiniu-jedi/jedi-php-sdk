@@ -2,8 +2,6 @@
 
 include_once 'config.php';
 
-use Jedi;
-
 $videoKeys = array('qiniu.mp4', 'qiniu2.mp4', 'qiniu3.mp4');
 
 $jediAuth = new Jedi\JediAuth($ak, $sk);

@@ -2,8 +2,6 @@
 
 include_once 'config.php';
 
-use Jedi;
-
 $jediAuth = new Jedi\JediAuth($ak, $sk);
 $jediManager = new Jedi\JediManager($jediAuth);
 $result = $jediManager->getVideoList($hub);

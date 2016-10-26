@@ -2,8 +2,6 @@
 
 include_once 'config.php';
 
-use Jedi;
-
 $videoKey = 'qiniu.mp4';
 $activeIndex = 9;
 

@@ -2,8 +2,6 @@
 
 include_once 'config.php';
 
-use Jedi;
-
 $videoKey = 'qiniu.mp4';
 $videoFilePath = "/Users/jemy/Documents/qiniu.mp4";
 $jediAuth = new Jedi\JediAuth($ak, $sk);
