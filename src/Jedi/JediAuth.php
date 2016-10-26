@@ -1,6 +1,6 @@
 <?php
 
-namespace Qiniu\Jedi;
+namespace Jedi;
 
 use Qiniu;
 

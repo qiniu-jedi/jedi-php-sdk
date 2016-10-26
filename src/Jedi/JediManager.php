@@ -1,5 +1,5 @@
 <?php
-namespace Qiniu\Jedi;
+namespace Jedi;
 
 use Qiniu\Http\Client;
 use Qiniu\Http\Request;
