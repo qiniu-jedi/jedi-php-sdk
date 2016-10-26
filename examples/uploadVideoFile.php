@@ -11,7 +11,7 @@ if (!empty($upTokenResult['uptoken'])) {
     $upToken = $upTokenResult['uptoken'];
     try {
         $uploadResult = $jediManager->uploadVideoFile($upToken, $videoKey, $videoFilePath);
-        print_r($uploadResult[0]);
+        print_r($uploadResult);
     } catch (Exception $ex) {
         print("upload file failed");
     }

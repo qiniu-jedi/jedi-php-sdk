@@ -10,4 +10,4 @@ $result = $jediManager->getVideoInfo($hub, $videoKey);
 
 print_r($result['videoInfo']);
 #print_r($result['videoInfo']['key']);
-print_r($result['response']);
+#print_r($result['response']);
