@@ -1,4 +1,5 @@
 <?php
+
 namespace Qiniu\Jedi;
 
 use Qiniu\Http\Client;
@@ -68,11 +69,12 @@ final class JediManager {
      * @return (uploadResult, null) 
      *      
      */
+
     public function uploadVideoData($upToken, $videoKey, $videoData) {
         return $this->uploadManager->put($upToken, $videoKey, $videoData);
     }
 
-     /*
+    /*
      * Upload video data
      * 
      * @param $upToken
@@ -82,6 +84,7 @@ final class JediManager {
      * @return (uploadResult, null) 
      *      
      */
+
     public function uploadVideoFile($upToken, $videoKey, $videoFilePath) {
         return $this->uploadManager->putFile($upToken, $videoKey, $videoFilePath);
     }
@@ -246,6 +249,7 @@ final class JediManager {
      *      
      * @return (opResult, response)
      */
+
     public function setVideoImage($hub, $videoKey, $activeIndex) {
         $encodedKey = \Qiniu\base64_urlSafeEncode($videoKey);
         $putUrl = JediManager::JEDI_API_SERVER . '/v1/hubs/' .
