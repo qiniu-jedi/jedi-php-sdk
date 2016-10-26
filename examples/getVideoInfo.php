@@ -2,7 +2,7 @@
 
 include_once 'config.php';
 
-use Qiniu\Jedi;
+use Jedi;
 
 $videoKey = 'qiniu.mp4';
 

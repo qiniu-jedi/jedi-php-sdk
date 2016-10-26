@@ -2,7 +2,7 @@
 
 include_once 'config.php';
 
-use Qiniu\Jedi;
+use Jedi;
 
 $jediAuth = new Jedi\JediAuth($ak, $sk);
 $jediManager = new Jedi\JediManager($jediAuth);
