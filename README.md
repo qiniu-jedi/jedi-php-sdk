@@ -2,7 +2,7 @@
 
 ## 安装
 
-* 通过composer，这是推荐的方式，可以使用 composer.json 声明依赖，或者运行下面的命令。SDK 包已经放到这里 [`qiniu/jedi-sdk`][install-packagist] 。
+* 通过composer，这是推荐的方式，可以使用 composer.json 声明依赖，或者运行下面的命令。SDK 包已经放到这里 [`qiniu/jedi-sdk`](https://packagist.org/packages/qiniu/jedi-sdk) 。
 
 ```bash
 $ composer require qiniu/jedi-sdk
